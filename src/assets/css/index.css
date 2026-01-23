@@ -1,5 +1,45 @@
 @import "tailwindcss";
 
 @theme {
+  /* Brand Colors from Logo */
   --color-primary: #244a7d;
+  --color-secondary: #f97316;
+  --color-accent: #84cc16;
+
+  /* Additional Theme Colors */
+  --color-primary-dark: #1a3659;
+  --color-primary-light: #3d6ba8;
+
+  --color-light-white: #f9fafa;
+}
+
+/* Global Styles */
+* {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family:
+    -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu",
+    "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #244a7d;
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #1a3659;
 }

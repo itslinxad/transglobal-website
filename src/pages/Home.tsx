@@ -1,12 +1,19 @@
-import Navbar from "../components/Navbar.tsx";
+import Hero from "../components/sections/Hero";
+import ServicesGrid from "../components/sections/ServicesGrid";
+import WhyChooseUs from "../components/sections/WhyChooseUs";
+import StatsSection from "../components/sections/StatsSection";
+import TestimonialsSection from "../components/sections/TestimonialsSection";
+import CTASection from "../components/sections/CTASection";
 
 const Home = () => {
   return (
-    <>
-      <div className="min-h-screen bg-gray-100">
-        <Navbar />
-      </div>
-    </>
+    <div>
+      <Hero />
+      <ServicesGrid />
+      <WhyChooseUs />
+      <TestimonialsSection />
+      <CTASection />
+    </div>
   );
 };
 
