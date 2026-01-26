@@ -85,6 +85,8 @@ const ContactForm = () => {
           subject: formData.subject,
           message: formData.message,
           from_name: 'Transglobal Movers Website',
+          to: import.meta.env.VITE_CONTACT_EMAIL,
+          replyto: formData.email,
         }),
       });
 
