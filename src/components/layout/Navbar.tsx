@@ -27,7 +27,7 @@ const Navbar = () => {
           {/* Logo */}
           <Link to="/" className="flex items-center space-x-3">
             <img
-              src="/logo-mockup.png"
+              src="/logo.png"
               alt="Transglobal Movers INC."
               className="h-12 w-auto"
             />

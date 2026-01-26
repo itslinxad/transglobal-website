@@ -1,12 +1,12 @@
-import { Link } from 'react-router-dom';
-import Card from '../ui/Card';
-import { services } from '../../data/services';
+import { Link } from "react-router-dom";
+import Card from "../ui/Card";
+import { services } from "../../data/services";
 
 const ServicesGrid = () => {
   // Get 8 featured services (4 from each category)
   const featuredServices = [
-    ...services.filter(s => s.category === 'freight').slice(0, 4),
-    ...services.filter(s => s.category === 'moving').slice(0, 4),
+    ...services.filter((s) => s.category === "freight").slice(0, 4),
+    ...services.filter((s) => s.category === "moving").slice(0, 4),
   ];
 
   return (
@@ -17,7 +17,8 @@ const ServicesGrid = () => {
             Our <span className="text-primary">Services</span>
           </h2>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-            Comprehensive logistics solutions tailored to your needs, from freight forwarding to complete relocation services.
+            Comprehensive logistics solutions tailored to your needs, from
+            freight forwarding to complete relocation services.
           </p>
         </div>
 
@@ -27,7 +28,9 @@ const ServicesGrid = () => {
               <Card hover padding="lg" className="h-full">
                 <div className="text-center">
                   <div className="mb-4">
-                    <i className={`fas ${service.icon} text-5xl text-primary`}></i>
+                    <i
+                      className={`fas ${service.icon} text-5xl text-primary`}
+                    ></i>
                   </div>
                   <h3 className="text-xl font-semibold text-gray-900 mb-3">
                     {service.title}
@@ -36,7 +39,8 @@ const ServicesGrid = () => {
                     {service.shortDescription}
                   </p>
                   <div className="text-secondary font-medium text-sm flex items-center justify-center">
-                    Learn More <i className="fas fa-arrow-right ml-2 text-xs"></i>
+                    Learn More{" "}
+                    <i className="fas fa-arrow-right ml-2 text-xs"></i>
                   </div>
                 </div>
               </Card>
