@@ -1,7 +1,7 @@
 import Hero from "../components/sections/Hero";
 import ServicesGrid from "../components/sections/ServicesGrid";
 import WhyChooseUs from "../components/sections/WhyChooseUs";
-import TestimonialsSection from "../components/sections/TestimonialsSection";
+import FAQSection from "../components/sections/FAQSection";
 import CTASection from "../components/sections/CTASection";
 
 const Home = () => {
@@ -10,7 +10,7 @@ const Home = () => {
       <Hero />
       <ServicesGrid />
       <WhyChooseUs />
-      <TestimonialsSection />
+      <FAQSection />
       <CTASection />
     </div>
   );

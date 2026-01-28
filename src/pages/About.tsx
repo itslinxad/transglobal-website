@@ -51,12 +51,12 @@ const About = () => {
               </h2>
               <div className="space-y-4 text-gray-700 leading-relaxed">
                 <p>
-                  Established in 1999, Transglobal Movers INC. has grown from a
-                  small freight forwarding company in the Philippines to a
-                  comprehensive global logistics provider serving clients
-                  worldwide. Our journey has been built on a foundation of
-                  reliability, expertise, and unwavering commitment to customer
-                  satisfaction.
+                  Cargofactors in 1999, Forerunner of Transglobal Movers INC.
+                  has grown from a small freight forwarding company in the
+                  Philippines to a comprehensive global logistics provider
+                  serving clients worldwide. Our journey has been built on a
+                  foundation of reliability, expertise, and unwavering
+                  commitment to customer satisfaction.
                 </p>
                 <p>
                   With over 25 years of experience in international shipping,

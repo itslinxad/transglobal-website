@@ -40,7 +40,8 @@ const Footer = () => {
             </p>
             <p className="text-sm">
               <i className="fas fa-map-marker-alt text-secondary mr-2"></i>
-              Philippines • International Services
+              Dollar St., Villa Carolina 1, Brgy. Tunasan, Muntinlupa City,
+              Metro Manila • Philippines
             </p>
           </div>
 
@@ -93,15 +94,19 @@ const Footer = () => {
               <li className="text-sm">
                 <i className="fas fa-envelope text-secondary mr-3"></i>
                 <a
-                  href="mailto:linuxadona17@gmail.com"
+                  href="mailto:rene.transglobal@gmail.com"
                   className="hover:text-secondary transition-colors duration-200"
                 >
-                  linuxadona17@gmail.com
+                  rene.transglobal@gmail.com
                 </a>
               </li>
               <li className="text-sm">
                 <i className="fas fa-phone text-secondary mr-3"></i>
-                <span>+63 XXX XXX XXXX</span>
+                <span>+63 917 852 4276</span>
+              </li>
+              <li className="text-sm">
+                <i className="fas fa-clock text-secondary mr-3"></i>
+                <span>Mon - Fri: 8:00 AM - 6:00 PM</span>
               </li>
               <li className="text-sm">
                 <i className="fas fa-globe text-secondary mr-3"></i>

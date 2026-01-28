@@ -17,22 +17,22 @@ const Contact = () => {
       id: "2",
       icon: "fa-envelope",
       title: "Email",
-      details: ["linuxadona17@gmail.com", "We reply within 24 hours"],
+      details: [
+        "rene.transglobal@gmail.com",
+        "We reply within 24 hours, 7 days a week",
+      ],
     },
     {
       id: "3",
       icon: "fa-phone",
       title: "Phone",
-      details: ["+63 XXX XXX XXXX", "Mon - Fri: 8:00 AM - 6:00 PM"],
+      details: ["+63 917 852 4276", "Mon - Fri: 8:00 AM - 6:00 PM"],
     },
     {
       id: "4",
       icon: "fa-clock",
       title: "Business Hours",
-      details: [
-        "Monday - Friday: 8:00 AM - 6:00 PM",
-        "Saturday: 9:00 AM - 1:00 PM",
-      ],
+      details: ["Monday - Friday: 8:00 AM - 6:00 PM"],
     },
   ];
 

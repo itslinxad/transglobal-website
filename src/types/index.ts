@@ -56,3 +56,10 @@ export interface NavLink {
   label: string;
   path: string;
 }
+
+// FAQ Types
+export interface FAQ {
+  id: string;
+  question: string;
+  answer: string;
+}
